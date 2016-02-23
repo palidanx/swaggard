@@ -1,5 +1,5 @@
 module Swaggard
-  class SwaggerController < ApplicationController
+  class SwaggerController < ActionController::Base
 
     before_filter :authorize
 
